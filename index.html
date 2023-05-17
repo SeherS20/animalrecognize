@@ -1,0 +1,46 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div class = "col-xs-12 header_div text-center">
+      <h2>Animal Recognition</h2>
+      <p> The website will respond to four sounds: Dog, Cat, Background noise, and human</p>
+    </div>
+    <div class="main_div">
+      <center>
+        <button class="btn btn-warning" onclick="start()"> Start recording sound </button>
+
+        <h3 id="result_label"> I can hear the sound of </h3>
+        <h3 id="accuracy_label"> I am - sure!</h3>
+        <br>
+        <img width="300" height="300" src="" id="human">
+        <img width="300" height="300" src="" id="Dog">
+        <img width="300" height="300" src="" id="Cat">
+        <img width="300" height="300" src="" id="Background_noise">
+        
+      </center>
+    </div>
+    <div class="copy_right_footer"> Developed by: Seher Sharma</div>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+

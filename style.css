@@ -1,0 +1,36 @@
+body {
+    font-family: 'Shantell Sans', cursive;
+    color: white;
+    background-image: linear-gradient(to left top, #38446f, #36446f, #7d1a74);
+}
+
+.header_div {
+    background-color:rgb(139, 0, 123);
+    color: white;
+}
+.header_div p{
+    font-size: larger;
+    letter-spacing: 2px;
+    color: rgb(34, 130, 178);
+}
+
+.main_div button {
+    margin-top: 30px;
+    width: 300px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    font-size: larger;
+    border-radius: 30px;
+}
+
+.copy_right_footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: large;
+    background-color:rgb(139, 0, 123);
+    color: white;
+    line-height: 3;
+    text-shadow: 5px 5px 5px rgb(95, 92, 124);
+
+}
